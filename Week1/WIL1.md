@@ -21,7 +21,7 @@
     $ git commit -m "<commit message>"   
     $ git push origin main 
 
-#### Commit Msg Type
+#### Commit Message Type
 ###### - feat: 새로운 기능 추가
 ###### - refactor: 기존 코드 개선
 ###### - fix: 버그 수정
