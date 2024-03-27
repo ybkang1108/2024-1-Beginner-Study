@@ -55,5 +55,5 @@
     comment에 "- close #issueNum"을 쓰면 Merge와 동시에 issue가 닫힘!
 6. Merge
 ---
-#### 실습 링크
+#### 실습 링크    
 ###### https://github.com/ybkang1108/2024-1-Beginner-Study/pull/2
