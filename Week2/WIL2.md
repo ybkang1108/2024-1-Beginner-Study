@@ -20,15 +20,15 @@
 ###### Merge 전 코드 리뷰
 
 #### Merge
-- Merge Commit
+1.  Merge Commit
 * A, B, C commit을 SQUASH
 * 하나의 커밋으로 main branch로 병합   
 <img src="/Week2/SquashnMerge.jpg" width="50%" alt="Squash n Merge"></img>    
-- Squash and Merge
+2. Squash and Merge
 * A, B, C commit의 base를 재설정
 * 모두 새로운 commit으로 변경   
 <img src="/Week2/RebasenMerge.jpg" width="50%" alt="Rebase n Merge"></img>   
-- Rebase and Merge
+3. Rebase and Merge
 * commit hash(commit의 식별을 위해 사용하는 ID)
 * 많은 충돌이 생길 수 있음
 
