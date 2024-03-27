@@ -38,21 +38,21 @@
 - 모든 branch 확인
     $ git branch -a
 - branch 생성
-    $ git branch "<Branch Name>"
+    $ git branch "Branch Name"
 - branch 삭제
-    $ git branch -D "<Branch Name>"
+    $ git branch -D "Branch Name"
 - branch 이동
-    $ git checkout "<Branch Name>"
+    $ git checkout "Branch Name"
 - branch 생성 후 이동
-    $ git checkout -b "<Branch Name>"
+    $ git checkout -b "Branch Name"
 
 #### Branch에서 파일 생성 후 PUSH 과정
 1. branch 생성 후 이동
 2. file 생성
-3. $ git commit -m "<Commit MSG>"
-4. $ git push origin "<Branch Name>"
-5. Git에서 Pull Request
-    *comment에 "- close #issueNum"을 쓰면 Merge와 동시에 issue가 닫힘!
+3. $ git commit -m "Commit MSG"
+4. $ git push origin "Branch Name"
+5. Git에서 Pull Request   
+    comment에 "- close #issueNum"을 쓰면 Merge와 동시에 issue가 닫힘!
 6. Merge
 ---
 #### 실습 링크
