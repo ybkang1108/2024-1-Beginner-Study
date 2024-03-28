@@ -33,17 +33,17 @@
 * 많은 충돌이 생길 수 있음
 
 #### Branch Command
-- 현재 branch 확인
+- 현재 branch 확인   
     $ git branch
-- 모든 branch 확인
+- 모든 branch 확인   
     $ git branch -a
-- branch 생성
+- branch 생성   
     $ git branch "Branch Name"
-- branch 삭제
+- branch 삭제   
     $ git branch -D "Branch Name"
-- branch 이동
+- branch 이동   
     $ git checkout "Branch Name"
-- branch 생성 후 이동
+- branch 생성 후 이동   
     $ git checkout -b "Branch Name"
 
 #### Branch에서 파일 생성 후 PUSH 과정
