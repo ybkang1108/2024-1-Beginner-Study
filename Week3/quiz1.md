@@ -47,7 +47,7 @@ Working Directory에 있는 파일들을 모두 Staging Area에 추가할 수 �
 
 - 가장 최신 commit의 ID가 als2d3f이다.
 - HEAD -> branch이므로 현재 checkout된 branch는 "develop"이고, HEAD는 "develop" branch의 가장 최신 commit을 가리키고 있다.
-- commit type이 docs인 것으로 보아 readme 파일이 추가되었다.
+- commit type과 설명으로 보아 readme 파일이 추가되었다.
 
 ### Q7
 ```git log --oneline```으로 commit의 기록을 확인해보니 아래와 같은 log를 확인 할 수 있었다.  
