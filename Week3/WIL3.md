@@ -20,11 +20,11 @@
 
 #### 2. commit msg 수정 없이 commit 수정
     $ git commit --amend --no-edit
-##### !다른 사람이 작업 기반으로 삼고 있는 commit은 amend하면 안 됨!   
+##### !다른 사람이 작업 기반으로 삼고 있는 commit은 amend하면 안 됨!          
 
 #### reset
 ###### commit을 제거함
-    $ git reset '--option' <commitID> // $git reset --soft a1s2d3f
+    $ git reset '--option' <commitID> // ex. $ git reset --soft a1s2d3f
 #### 1. reset --soft
 ###### 커밋만 취소되며 변경 사항이 Staging Area로 돌아감
 #### 2. reset --mixed
@@ -33,7 +33,7 @@
 ###### 커밋을 취소하고 변경사항을 모두 제거한 뒤 이전 커밋으로 돌아감
 
 #### revert
-###### commit을 제거하는 게 아니라 이전으로 되돌림 -> 되돌리기 ㅜ이한 새로운 commit이 생성됨
+###### commit을 제거하는 게 아니라 이전으로 되돌림 -> 되돌리기 위한 새로운 commit이 생성됨
     $ git revert a1s2d3f // --edit이 default
 
 #### 1. revert --no-edit
@@ -41,6 +41,7 @@
     $ git revert --no-edit <commitID>
 #### 2. revert --no-commit
 ###### 직접 commit하지 않고 revert내용을 Staging Area에 올림
+    $ git revert --no-commit <commitID>
 
 #### reset vs revert
 ###### - reset은 commit을 <<삭제>>하므로 위험함
