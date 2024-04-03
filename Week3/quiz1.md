@@ -46,7 +46,7 @@ Working Directory에 있는 파일들을 모두 Staging Area에 추가할 수 �
 알 수 있는 사실을 모두 적으시오.
 
 - 가장 최신 commit의 ID가 als2d3f이다.
-- HEAD -> branch이므로 현재 checkout된 branch는 "develop"이고, HEAD는 "develop" branch의 가장 최신 commit 커밋을 가리키고 있다.
+- HEAD -> branch이므로 현재 checkout된 branch는 "develop"이고, HEAD는 "develop" branch의 가장 최신 commit을 가리키고 있다.
 - commit type이 docs인 것으로 보아 readme 파일이 추가되었다.
 
 ### Q7
@@ -61,7 +61,7 @@ s2d3f4g fourth commit
 이때, fourth commit까지 제거하고 fourth commit과 fifth commit의 변경 사항은
 Staging Area에 남아 있길 바란다면 reset을 어떤 옵션과 함께 사용하면 되는지 적으시오.
 
-- 답: git reset --soft 345hj26
+- 답: git reset --soft 345hj26   
 soft/mixed/hard 중 soft옵션을 사용하면 commit만 취소되며 변경 사항은 Staging Area로 들어간다.
 
 ### Q8
@@ -82,5 +82,5 @@ reset은 너무 위험하니 revert를 사용하려고 하여 ```fifth commit```
 여러 사람이 협업하는 프로젝트에서 커밋을 되돌려야 한다.  
 reset과 revert 중에 어떤 것을 선택할 것인지를 그 이유와 함께 적으시오.
 
-- 답: revert
+- 답: revert   
  reset은 commit을 삭제하므로 위험하다. 또한 commit을 공유하는 다른 브랜치에도 영향을 줄 수 있으므로 commit을 reset하기보다는 생성하여 되돌리는 revert를 쓰는 것이 좋다.
