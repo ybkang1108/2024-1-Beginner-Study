@@ -9,7 +9,7 @@
 #### HEAD: 현재 작업 중인 위치를 가리킴
 ###### - 현재 작업중인 branch의 가장 최근 commit
 ###### - 다음 commit의 base가 되는 commit
-###### - 새로운 commit이 생기면 HEAD도 변경됨
+###### - 새로운 commit이 생기면 HEAD도 변경됨\
 
 #### commit --amend
 ###### - 마지막 commit의 내용에 변경이 있을 때 사용
@@ -20,7 +20,7 @@
 
 #### 2. commit msg 수정 없이 commit 수정
     $ git commit --amend --no-edit
-###### _다른 사람이 작업 기반으로 삼고 있는 commit은 amend하면 안 됨!_
+###### _다른 사람이 작업 기반으로 삼고 있는 commit은 amend하면 안 됨!_\
 
 #### reset
 ###### commit을 제거함
@@ -30,7 +30,7 @@
 #### 2. reset --mixed
 ###### 커밋을 취소하고 변경 사항이 Working Directory로 돌아감
 #### 3. reset --hard
-###### 커밋을 취소하고 변경사항을 모두 제거한 뒤 이전 커밋으로 돌아감
+###### 커밋을 취소하고 변경사항을 모두 제거한 뒤 이전 커밋으로 돌아감\
 
 #### revert
 ###### commit을 제거하는 게 아니라 이전으로 되돌림 -> 되돌리기 위한 새로운 commit이 생성됨
@@ -42,6 +42,7 @@
 #### 2. revert --no-commit
 ###### 직접 commit하지 않고 revert내용을 Staging Area에 올림
     $ git revert --no-commit <commitID>
+\
 
 #### reset vs revert
 ###### - reset은 commit을 <<삭제>>하므로 위험함
