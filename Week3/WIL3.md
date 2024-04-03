@@ -1,8 +1,8 @@
 ## Beginner-Study WIL3
 ---
 ### git log 확인
-- commit 기록을 최신 순으로 확인   
-- commit id: commit의 식별을 위해 사용되는 40자 길이의 16진수   
+commit 기록을 최신 순으로 확인   
+commit id: commit의 식별을 위해 사용되는 40자 길이의 16진수   
 
     $ git log --oneline // 각 commit을 한 줄에 요약   
     
