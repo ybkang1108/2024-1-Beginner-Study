@@ -20,7 +20,7 @@
 
 #### 2. commit msg 수정 없이 commit 수정
     $ git commit --amend --no-edit
-##### !다른 사람이 작업 기반으로 삼고 있는 commit은 amend하면 안 됨!
+###### _다른 사람이 작업 기반으로 삼고 있는 commit은 amend하면 안 됨!_
 
 #### reset
 ###### commit을 제거함
