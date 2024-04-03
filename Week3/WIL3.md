@@ -2,7 +2,7 @@
 ---
 ### git log 확인
 commit 기록을 최신 순으로 확인
-commit id: commit의 식별을 위해 사용되는 40자 길이의 16진수
+commit id: commit의 식별을 위해 사용되는 40자 길이의 16진수   
     $ git log --oneline // 각 commit을 한 줄에 요약   
 <img src="/Week3/git_log.jpg" width="70%" alt="Git Log"></img>   
 
@@ -22,6 +22,7 @@ commit id: commit의 식별을 위해 사용되는 40자 길이의 16진수
     $ git commit --amend --no-edit
 _다른 사람이 작업 기반으로 삼고 있는 commit은 amend하면 안 됨!_
 
+
 ### reset
 commit을 제거함
     $ git reset '--option' <commitID> // ex. $ git reset --soft a1s2d3f
@@ -32,7 +33,7 @@ commit을 제거함
 #### 3. reset --hard
 커밋을 취소하고 변경사항을 모두 제거한 뒤 이전 커밋으로 돌아감
 
-##### EXAMPLE
+##### _EXAMPLE_
     $ git log --oneline
 ```
 a1s2d3f (HEAD -> develop) fifth commit
@@ -53,17 +54,17 @@ s2d3f4g fourth commit
 
 
 ### revert
-<img src="/Week3/revert.jpg" width="40%" alt="Revert"></img>   
-commit을 제거하는 게 아니라 이전으로 되돌림 -> 되돌리기 위한 새로운 commit이 생성됨
+<img src="/Week3/revert.jpg" width="30%" alt="Revert"></img>      
+commit을 제거하는 게 아니라 이전으로 되돌림 -> 되돌리기 위한 새로운 commit이 생성됨   
     $ git revert a1s2d3f // --edit이 default
 
 #### 1. revert --no-edit
-편집기 진입 없이 바로 revert 가능
+편집기 진입 없이 바로 revert 가능   
     $ git revert --no-edit <commitID>
 #### 2. revert --no-commit
-직접 commit하지 않고 revert내용을 Staging Area에 올림
+직접 commit하지 않고 revert내용을 Staging Area에 올림   
     $ git revert --no-commit <commitID>
 
 ### reset vs revert
-- reset은 commit을 <<삭제>>하므로 위험함
+- reset은 commit을 __삭제__ 하므로 위험함
 - commit을 공유하는 다른 branch에도 영향을 줄 수 있으므로 삭제보다는 commit을 생성하여 되돌리는 revert를 쓰는 것이 안전함
