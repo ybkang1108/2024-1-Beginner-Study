@@ -1,6 +1,5 @@
 ## Beginner-Study WIL2
 
-
 ### Fork
 다른 사용자의 Repository를 자신의 계정으로 복사하여 독립적으로 수정하고 관리함   
 

@@ -1,5 +1,5 @@
 ### Beginner-Study WIL3
----
+
 ### git log 확인
 commit 기록을 최신 순으로 확인   
 commit id: commit의 식별을 위해 사용되는 40자 길이의 16진수   
@@ -8,7 +8,7 @@ commit id: commit의 식별을 위해 사용되는 40자 길이의 16진수
     
 <img src="/Week3/git_log.jpg" width="70%" alt="Git Log"></img>   
 
-###HEAD: 현재 작업 중인 위치를 가리킴
+### HEAD: 현재 작업 중인 위치를 가리킴
 - 현재 작업중인 branch의 가장 최근 commit
 - 다음 commit의 base가 되는 commit
 - 새로운 commit이 생기면 HEAD도 변경됨
@@ -37,8 +37,7 @@ commit을 제거함
 #### 3. reset --hard
 커밋을 취소하고 변경사항을 모두 제거한 뒤 이전 커밋으로 돌아감
 
-<<<<<<< HEAD
-##### _EXAMPLE_
+##### EXAMPLE
     $ git log --oneline
 ```
 a1s2d3f (HEAD -> develop) fifth commit
@@ -59,13 +58,8 @@ s2d3f4g fourth commit
 
 
 ### revert
-<img src="/Week3/revert.jpg" width="30%" alt="Revert"></img>      
-commit을 제거하는 게 아니라 이전으로 되돌림 -> 되돌리기 위한 새로운 commit이 생성됨 
-
-=======
-### revert
+<img src="/Week3/revert.jpg" width="40%" alt="Revert"></img>   
 commit을 제거하는 게 아니라 이전으로 되돌림 -> 되돌리기 위한 새로운 commit이 생성됨
->>>>>>> parent of 471a820 (Week3 과제 제출)
     $ git revert a1s2d3f // --edit이 default
 
 #### 1. revert --no-edit
