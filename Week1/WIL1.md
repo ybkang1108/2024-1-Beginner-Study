@@ -30,5 +30,5 @@
 - test: 테스트코드     
 
 ---
-#### 실습 레포지토리 링크
+### 실습 레포지토리 링크
 ###### https://github.com/ybkang1108/ybkang1108.git
