@@ -10,8 +10,9 @@
 Repository에서 작업 계획, 토론 및 추적을 위해 활용
 
 ### Branch
-기존 브랜치에서 분기되어 생성되는 별도의 작업 공간
-fork와 달리 같은 Repository에 생성됨   
+기존 브랜치에서 분기되어 생성되는 별도의 작업 공간   
+fork와 달리 같은 Repository에 생성됨    
+  
     type/<issue 번호>-<간략한 설명> (ex. docs/1-readme)
 
 ### Pull Request
