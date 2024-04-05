@@ -61,8 +61,8 @@ s2d3f4g fourth commit
 이때, fourth commit까지 제거하고 fourth commit과 fifth commit의 변경 사항은
 Staging Area에 남아 있길 바란다면 reset을 어떤 옵션과 함께 사용하면 되는지 적으시오.
 
-- 답: git reset --soft 345hj26   
-soft/mixed/hard 중 soft옵션을 사용하면 commit만 취소되며 변경 사항은 Staging Area로 들어간다.
+- 답: soft
+git reset --soft 345hj26 에서 soft/mixed/hard 중 soft옵션을 사용하면 commit만 취소되며 변경 사항은 Staging Area로 들어간다.
 
 ### Q8
 ```git log --oneline```으로 commit의 기록을 확인해보니 아래와 같은 log를 확인 할 수 있었다.
