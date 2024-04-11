@@ -25,15 +25,15 @@
         - develop 브랜치에서 분기하여 작업
         - 기능 개발 완료 후 develop으로 병합
         - 기본으로 있는 이름들 제외 대부분의 이름이 가능
-    <img src="/Week4/feature.jpg" width="50%" alt="feature"></img>  
+    <img src="/Week4/feature.jpg" width="30%" alt="feature"></img>  
 
     - release: 배포 준비를 위한 브랜치
         - 자잘한 버그 수정, quality assurance 작업
         - develop 브랜치에서 분기하여 main 브랜치로 병합
     - hotfix: 배포 환경에서 즉각적인 수정이 필요한 경우
         - main 브랜치에서 분기
-        - main, develop에 모두 병합해야함
-    <img src="/Week4/hotfix.jpg" width="50%" alt="hotfix"></img>  
+        - main, develop에 모두 병합해야함     
+    <img src="/Week4/hotfix.jpg" width="30%" alt="hotfix"></img>  
 
 **배포가 수시로 이루어지는 현 시대의 웹앱과는 부적합함**    
 **=> Github Flow**
