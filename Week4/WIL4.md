@@ -35,7 +35,7 @@
         - main 브랜치에서 분기    
         - main, develop에 모두 병합해야함     
         
-    <img src="/Week4/hotfix.jpg" width="40" alt="hotfix"></img>  
+    <img src="/Week4/hotfix.jpg" width="40%" alt="hotfix"></img>  
 
 **배포가 수시로 이루어지는 현 시대의 웹앱과는 부적합함**    
 **=> Github Flow**
