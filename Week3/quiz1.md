@@ -83,4 +83,4 @@ reset은 너무 위험하니 revert를 사용하려고 하여 ```fifth commit```
 reset과 revert 중에 어떤 것을 선택할 것인지를 그 이유와 함께 적으시오.
 
 - 답: revert   
- reset은 commit을 삭제하므로 위험하다. 또한 commit을 공유하는 다른 브랜치에도 영향을 줄 수 있으므로 commit을 reset하기보다는 생성하여 되돌리는 revert를 쓰는 것이 좋다.
+ reset은 commit을 삭제하므로 위험하다. 또한 commit을 공유하는 다른 브랜치에도 영향을 줄 수 있으므로 commit을 reset하기보다는 생성하여 되돌리는 revert를 쓰는 것이 좋다.  
